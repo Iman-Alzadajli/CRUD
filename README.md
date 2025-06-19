@@ -6,13 +6,13 @@ This project is built as a hands-on application from the [YouTube tutorial](http
 ---
 
 
-#Image
+## ✨ Image
 
 <p align="center">
   <img src="https://f.top4top.io/p_3457ywc841.png" alt="App Screenshot" width="600"/>
 </p>
 
-#How its Work 
+## ✨ How its Work
 
 https://g.top4top.io/m_345759f2z1.mp4
 
