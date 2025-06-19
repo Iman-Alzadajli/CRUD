@@ -1,0 +1,169 @@
+*{
+    margin:  0;
+    padding: 0 ;
+    
+}
+
+
+
+.t {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.t h2 {
+  font-size: 36px;
+  color: #585353;
+  margin-bottom: 10px;
+}
+
+.heatder p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* This for table*/
+
+table {
+  width: 100%;
+  text-align: center;
+  margin: 10px 0;
+  border-collapse: collapse; /* reomve space between cells*/
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #555; 
+}
+
+tr:nth-child(even) {
+  background-color: #2e2e2e; 
+}
+
+tr:nth-child(odd) {
+  background-color: #3a3a3a; 
+}
+
+/*End*/ 
+
+
+
+
+
+body {
+    background-color: rgb(33, 32, 32);
+    color: aliceblue;
+    font-family: system-ui;
+
+
+}
+
+.crud {
+    width:  80%;
+    margin: auto;
+}
+
+.head {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: rgb(39, 37, 37);
+    margin: 4px 0;
+    margin-bottom: 10px;
+    padding: 4px;
+    color: rgb(196, 196, 197);
+
+
+
+}
+
+input:focus{
+    background: rgb(48, 36, 36);
+    transform: scale(1.1);
+}
+
+.price input{
+    width: 20%;
+}
+
+#total{
+    background-color: rgb(255, 207, 118);
+    padding: 5px 2px;
+    border-radius: 4px;
+
+}
+
+
+#deleteAll{
+    margin: 20px 0 ;
+
+}
+#total ::before
+{
+    content:  'Total:';
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(247, 247, 143);
+    color: rgb(38, 38, 38);
+    border-radius: 20px;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover{
+    background: rgb(253, 241, 8);
+    letter-spacing: 1px;
+    box-shadow: #f3ffa2;
+     box-shadow: 0 2px 5px 5px rgba(255, 234, 0, 0.884);
+}
+
+.plus
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.outputs{
+    margin: 10px;
+}
+
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button {
+    width:  45%;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+
+table th{
+    text-transform: uppercase;
+}
+
+th,td{
+    padding: 5px;
+
+}
